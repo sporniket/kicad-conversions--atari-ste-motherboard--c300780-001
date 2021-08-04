@@ -1,0 +1,9 @@
+(module hole_M (layer F.Cu) (tedit 60E3DA05)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value hole_M (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 7.62 7.62) (drill 3.175) (layers *.Cu *.Mask))
+)

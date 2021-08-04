@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name pcb-masks)(type KiCad)(uri ${KIPRJMOD}/pcb-masks.pretty)(options "")(descr ""))
+  (lib (name commons_passives_THT)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints-handmade/commons-passives_THT.pretty)(options "")(descr ""))
+  (lib (name commons-interconnect_THT)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints-handmade/commons-interconnect_THT.pretty)(options "")(descr ""))
+  (lib (name atari-interconnect)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints-handmade/atari-interconnect.pretty)(options "")(descr ""))
+  (lib (name atari-motherboard-holes-ste)(type KiCad)(uri ${KIPRJMOD}/atari-motherboard-holes-ste.pretty)(options "")(descr ""))
+  (lib (name cliparts)(type KiCad)(uri ${KIPRJMOD}/cliparts.pretty)(options "")(descr ""))
+  (lib (name atari-passives_THT)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints-handmade/atari-passives_THT.pretty)(options "")(descr ""))
+)

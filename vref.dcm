@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VREF+
+D Positive voltage reference
+K power-flag
+$ENDCMP
+#
+$CMP VREF-
+D Negative voltage reference
+K power-flag
+$ENDCMP
+#
+#End Doc Library
