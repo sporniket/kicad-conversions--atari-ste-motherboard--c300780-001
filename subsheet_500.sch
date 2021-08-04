@@ -204,15 +204,15 @@ $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 60CAB629
-P 2650 1250
+P 2650 2250
 AR Path="/60B3D9E3/60CAB629" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60CAB629" Ref="R?"  Part="1" 
 AR Path="/60C451BA/60CAB629" Ref="R521"  Part="1" 
-F 0 "R521" H 2680 1270 50  0000 L CNN
-F 1 "1M" H 2680 1210 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2650 1250 50  0001 C CNN
-F 3 "~" H 2650 1250 50  0001 C CNN
-	1    2650 1250
+F 0 "R521" H 2680 2270 50  0000 L CNN
+F 1 "1M" H 2680 2210 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2650 2250 50  0001 C CNN
+F 3 "~" H 2650 2250 50  0001 C CNN
+	1    2650 2250
 	1    0    0    -1  
 $EndComp
 Text Label 2650 950  3    50   ~ 0
@@ -226,15 +226,15 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R?
 U 1 1 60CB0FCA
-P 2650 2250
+P 2650 1250
 AR Path="/60B3D9E3/60CB0FCA" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60CB0FCA" Ref="R?"  Part="1" 
 AR Path="/60C451BA/60CB0FCA" Ref="R518"  Part="1" 
-F 0 "R518" H 2680 2270 50  0000 L CNN
-F 1 "1M" H 2680 2210 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2650 2250 50  0001 C CNN
-F 3 "~" H 2650 2250 50  0001 C CNN
-	1    2650 2250
+F 0 "R518" H 2680 1270 50  0000 L CNN
+F 1 "1M" H 2680 1210 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2650 1250 50  0001 C CNN
+F 3 "~" H 2650 1250 50  0001 C CNN
+	1    2650 1250
 	1    0    0    -1  
 $EndComp
 Text Label 2650 1950 3    50   ~ 0
@@ -300,7 +300,7 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R?
 U 1 1 60CC1FA9
-P 2250 1500
+P 2250 2500
 AR Path="/608A2359/60CC1FA9" Ref="R?"  Part="1" 
 AR Path="/60A1445F/60CC1FA9" Ref="R?"  Part="1" 
 AR Path="/60A73CDE/60CC1FA9" Ref="R?"  Part="1" 
@@ -310,11 +310,11 @@ AR Path="/60AD33B6/60CC1FA9" Ref="R?"  Part="1"
 AR Path="/60B3D9E3/60CC1FA9" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60CC1FA9" Ref="R?"  Part="1" 
 AR Path="/60C451BA/60CC1FA9" Ref="R523"  Part="1" 
-F 0 "R523" V 2150 1500 50  0000 C CNN
-F 1 "470" V 2350 1500 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2250 1500 50  0001 C CNN
-F 3 "~" H 2250 1500 50  0001 C CNN
-	1    2250 1500
+F 0 "R523" V 2150 2500 50  0000 C CNN
+F 1 "470" V 2350 2500 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2250 2500 50  0001 C CNN
+F 3 "~" H 2250 2500 50  0001 C CNN
+	1    2250 2500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -323,7 +323,7 @@ Connection ~ 2650 1500
 $Comp
 L Device:R_Small_US R?
 U 1 1 60CC5A45
-P 2250 2500
+P 2250 1500
 AR Path="/608A2359/60CC5A45" Ref="R?"  Part="1" 
 AR Path="/60A1445F/60CC5A45" Ref="R?"  Part="1" 
 AR Path="/60A73CDE/60CC5A45" Ref="R?"  Part="1" 
@@ -333,11 +333,11 @@ AR Path="/60AD33B6/60CC5A45" Ref="R?"  Part="1"
 AR Path="/60B3D9E3/60CC5A45" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60CC5A45" Ref="R?"  Part="1" 
 AR Path="/60C451BA/60CC5A45" Ref="R519"  Part="1" 
-F 0 "R519" V 2150 2500 50  0000 C CNN
-F 1 "470" V 2350 2500 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2250 2500 50  0001 C CNN
-F 3 "~" H 2250 2500 50  0001 C CNN
-	1    2250 2500
+F 0 "R519" V 2150 1500 50  0000 C CNN
+F 1 "470" V 2350 1500 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2250 1500 50  0001 C CNN
+F 3 "~" H 2250 1500 50  0001 C CNN
+	1    2250 1500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
