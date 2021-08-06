@@ -524,7 +524,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5300 6700 50  0001 L 
 	1    5300 6700
 	1    0    0    -1  
 $EndComp
-Text Label 4750 6700 0    50   ~ 0
+Text Label 4550 6400 0    50   ~ 0
 cv_out
 Text Label 5400 6250 3    50   ~ 0
 +12V
@@ -562,8 +562,8 @@ U 1 1 60BDE5CE
 P 5900 6300
 AR Path="/60B3D9E3/60BDE5CE" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60BDE5CE" Ref="R439"  Part="1" 
-F 0 "R439" H 5930 6320 50  0000 L CNN
-F 1 "75" H 5930 6260 50  0000 L CNN
+F 0 "R439" H 5950 6350 50  0000 L CNN
+F 1 "75" H 5950 6250 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5900 6300 50  0001 C CNN
 F 3 "~" H 5900 6300 50  0001 C CNN
 	1    5900 6300
@@ -575,8 +575,8 @@ U 1 1 60BDF9EB
 P 5900 7800
 AR Path="/60B3D9E3/60BDF9EB" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60BDF9EB" Ref="R452"  Part="1" 
-F 0 "R452" H 5930 7820 50  0000 L CNN
-F 1 "1K5" H 5930 7760 50  0000 L CNN
+F 0 "R452" H 5950 7850 50  0000 L CNN
+F 1 "1K5" H 5950 7750 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5900 7800 50  0001 C CNN
 F 3 "~" H 5900 7800 50  0001 C CNN
 	1    5900 7800
@@ -588,8 +588,8 @@ U 1 1 60BE020F
 P 5900 8300
 AR Path="/60B3D9E3/60BE020F" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60BE020F" Ref="R456"  Part="1" 
-F 0 "R456" H 5930 8320 50  0000 L CNN
-F 1 "2K2" H 5930 8260 50  0000 L CNN
+F 0 "R456" H 5950 8350 50  0000 L CNN
+F 1 "2K2" H 5950 8250 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5900 8300 50  0001 C CNN
 F 3 "~" H 5900 8300 50  0001 C CNN
 	1    5900 8300
@@ -724,8 +724,6 @@ Wire Wire Line
 Text Label 1500 1200 3    50   ~ 0
 VCC
 Wire Wire Line
-	4750 6700 5100 6700
-Wire Wire Line
 	4400 8200 4400 8450
 Wire Wire Line
 	5400 7750 5400 8050
@@ -802,8 +800,8 @@ U 1 1 60C419C4
 P 3900 8000
 AR Path="/60B3D9E3/60C419C4" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60C419C4" Ref="R463"  Part="1" 
-F 0 "R463" H 3930 8020 50  0000 L CNN
-F 1 "1K" H 3930 7960 50  0000 L CNN
+F 0 "R463" H 3950 8050 50  0000 L CNN
+F 1 "1K" H 3950 7950 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3900 8000 50  0001 C CNN
 F 3 "~" H 3900 8000 50  0001 C CNN
 	1    3900 8000
@@ -869,8 +867,8 @@ U 1 1 60C370A7
 P 4400 7300
 AR Path="/60B3D9E3/60C370A7" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60C370A7" Ref="R451"  Part="1" 
-F 0 "R451" H 4430 7320 50  0000 L CNN
-F 1 "0" H 4430 7260 50  0000 L CNN
+F 0 "R451" H 4450 7350 50  0000 L CNN
+F 1 "0" H 4450 7250 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4400 7300 50  0001 C CNN
 F 3 "~" H 4400 7300 50  0001 C CNN
 	1    4400 7300
@@ -1102,29 +1100,50 @@ $EndComp
 NoConn ~ 1800 6200
 NoConn ~ 1800 6500
 NoConn ~ 2150 6150
-NoConn ~ 2150 6250
 NoConn ~ 2150 6350
 NoConn ~ 2150 6450
-NoConn ~ 2150 6550
 Text Notes 750  6200 0    50   ~ 0
 maybe grounded
 Wire Notes Line
 	1800 6500 1500 6500
 Wire Notes Line
 	1500 6500 1500 6200
-Wire Notes Line
-	2150 6250 2250 6250
-Wire Notes Line
-	2250 6250 2250 6550
 Text Notes 2450 6550 0    50   ~ 0
-maybe bridged
+bridged on my \nmotherboard
 Wire Notes Line
 	1150 6200 1800 6200
-Wire Notes Line
-	2150 6550 2550 6550
 Connection ~ 4650 5650
 Wire Wire Line
 	4900 7350 5150 7350
 Text Label 5150 7350 2    50   ~ 0
 GND
+Wire Wire Line
+	2150 6250 2250 6250
+Wire Wire Line
+	2250 6250 2250 6550
+Wire Wire Line
+	2250 6550 2150 6550
+Wire Notes Line
+	2250 6550 3000 6550
+$Comp
+L Device:R_Small_US R?
+U 1 1 610EC475
+P 4900 6550
+AR Path="/60B3D9E3/610EC475" Ref="R?"  Part="1" 
+AR Path="/60B8B7AD/610EC475" Ref="R442"  Part="1" 
+F 0 "R442" H 4950 6600 50  0000 L CNN
+F 1 "1K" H 4950 6500 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 6550 50  0001 C CNN
+F 3 "~" H 4900 6550 50  0001 C CNN
+	1    4900 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6650 4900 6700
+Wire Wire Line
+	4900 6700 5100 6700
+Wire Wire Line
+	4550 6400 4900 6400
+Wire Wire Line
+	4900 6400 4900 6450
 $EndSCHEMATC
