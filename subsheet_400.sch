@@ -203,7 +203,7 @@ Text Label 3750 7400 1    50   ~ 0
 A14
 Text Label 3650 7400 1    50   ~ 0
 A15
-Text Label 3450 7400 1    50   ~ 0
+Text Label 3550 7400 1    50   ~ 0
 A16
 Text Label 3350 7400 1    50   ~ 0
 A17
@@ -233,8 +233,6 @@ Wire Wire Line
 	3250 7400 3250 7150
 Wire Wire Line
 	3350 7400 3350 7150
-Wire Wire Line
-	3450 7400 3450 7150
 Wire Wire Line
 	3650 7400 3650 7150
 Wire Wire Line
@@ -436,10 +434,8 @@ Wire Wire Line
 	2550 7400 2550 7150
 Wire Wire Line
 	2650 7400 2650 7150
-Text GLabel 3550 7450 3    50   Output ~ 0
+Text GLabel 3450 7450 3    50   Output ~ 0
 N6850
-Wire Wire Line
-	3550 7150 3550 7450
 Text Label 1250 5800 0    50   ~ 0
 VCC
 Wire Wire Line
@@ -1160,4 +1156,8 @@ Wire Wire Line
 	3250 1900 3250 2150
 Wire Wire Line
 	3050 1900 3050 2150
+Wire Wire Line
+	3450 7150 3450 7450
+Wire Wire Line
+	3550 7400 3550 7150
 $EndSCHEMATC
