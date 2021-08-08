@@ -199,12 +199,12 @@ Wire Wire Line
 $Comp
 L Device:D D202
 U 1 1 608C6C78
-P 4800 6400
-F 0 "D202" V 4750 6200 50  0000 C CNN
-F 1 "1N914" V 4850 6200 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" H 4800 6400 50  0001 C CNN
-F 3 "~" H 4800 6400 50  0001 C CNN
-	1    4800 6400
+P 4450 6400
+F 0 "D202" V 4400 6200 50  0000 C CNN
+F 1 "1N914" V 4500 6200 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" H 4450 6400 50  0001 C CNN
+F 3 "~" H 4450 6400 50  0001 C CNN
+	1    4450 6400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -405,12 +405,12 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R207
 U 1 1 60927CA7
-P 4300 6150
-F 0 "R207" V 4200 6150 50  0000 C CNN
-F 1 "220" V 4400 6150 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4300 6150 50  0001 C CNN
-F 3 "~" H 4300 6150 50  0001 C CNN
-	1    4300 6150
+P 4750 6150
+F 0 "R207" V 4650 6150 50  0000 C CNN
+F 1 "220" V 4850 6150 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4750 6150 50  0001 C CNN
+F 3 "~" H 4750 6150 50  0001 C CNN
+	1    4750 6150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -442,19 +442,9 @@ GND
 Wire Wire Line
 	5600 6650 5850 6650
 Wire Wire Line
-	4400 6150 4800 6150
+	4450 6150 4450 6250
 Wire Wire Line
-	4050 6650 4800 6650
-Wire Wire Line
-	4800 6150 4800 6250
-Connection ~ 4800 6150
-Wire Wire Line
-	4800 6150 5000 6150
-Wire Wire Line
-	4800 6550 4800 6650
-Connection ~ 4800 6650
-Wire Wire Line
-	4800 6650 5000 6650
+	4450 6550 4450 6650
 Wire Wire Line
 	3550 6250 4050 6250
 $Comp
@@ -573,8 +563,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 5150 2600 5150
 Wire Wire Line
-	3550 6150 4200 6150
-Wire Wire Line
 	4050 6250 4050 6650
 $Comp
 L Connector_Generic_Shielded:Conn_01x05_Shielded J201
@@ -643,4 +631,16 @@ Wire Wire Line
 	4500 3350 4500 3500
 Wire Wire Line
 	4400 3500 4500 3500
+Connection ~ 4450 6650
+Wire Wire Line
+	4450 6650 5000 6650
+Wire Wire Line
+	4050 6650 4450 6650
+Wire Wire Line
+	3550 6150 4450 6150
+Connection ~ 4450 6150
+Wire Wire Line
+	4450 6150 4650 6150
+Wire Wire Line
+	4850 6150 5000 6150
 $EndSCHEMATC
