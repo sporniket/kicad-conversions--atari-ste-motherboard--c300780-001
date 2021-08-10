@@ -237,24 +237,10 @@ FC[0..2]
 $Comp
 L Device:C C?
 U 1 1 609FF3C6
-P 6500 2000
+P 7000 2000
 AR Path="/60786F27/6078774E/609FF3C6" Ref="C?"  Part="1" 
 AR Path="/60786F27/607875AF/609FF3C6" Ref="C105"  Part="1" 
-AR Path="/6089D0BA/609FF3C6" Ref="C105"  Part="1" 
-F 0 "C105" H 6525 2100 50  0000 L CNN
-F 1 "0.1uF" H 6525 1900 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 6538 1850 50  0001 C CNN
-F 3 "~" H 6500 2000 50  0001 C CNN
-	1    6500 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 609FF3CC
-P 7000 2000
-AR Path="/60786F27/6078774E/609FF3CC" Ref="C?"  Part="1" 
-AR Path="/60786F27/607875AF/609FF3CC" Ref="C106"  Part="1" 
-AR Path="/6089D0BA/609FF3CC" Ref="C106"  Part="1" 
+AR Path="/6089D0BA/609FF3C6" Ref="C106"  Part="1" 
 F 0 "C106" H 7025 2100 50  0000 L CNN
 F 1 "0.1uF" H 7025 1900 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 7038 1850 50  0001 C CNN
@@ -262,13 +248,27 @@ F 3 "~" H 7000 2000 50  0001 C CNN
 	1    7000 2000
 	1    0    0    -1  
 $EndComp
-Text Label 6500 2350 1    50   ~ 0
-GND
+$Comp
+L Device:C C?
+U 1 1 609FF3CC
+P 6500 2000
+AR Path="/60786F27/6078774E/609FF3CC" Ref="C?"  Part="1" 
+AR Path="/60786F27/607875AF/609FF3CC" Ref="C106"  Part="1" 
+AR Path="/6089D0BA/609FF3CC" Ref="C105"  Part="1" 
+F 0 "C105" H 6525 2100 50  0000 L CNN
+F 1 "0.1uF" H 6525 1900 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 6538 1850 50  0001 C CNN
+F 3 "~" H 6500 2000 50  0001 C CNN
+	1    6500 2000
+	1    0    0    -1  
+$EndComp
 Text Label 7000 2350 1    50   ~ 0
 GND
-Text Label 7000 1650 3    50   ~ 0
-VCC
+Text Label 6500 2350 1    50   ~ 0
+GND
 Text Label 6500 1650 3    50   ~ 0
+VCC
+Text Label 7000 1650 3    50   ~ 0
 VCC
 Text Label 7300 4000 2    50   ~ 0
 XBLTBG
@@ -395,11 +395,11 @@ Wire Wire Line
 Wire Wire Line
 	4350 1800 4350 2000
 Wire Wire Line
-	6500 2150 6500 2350
+	7000 2150 7000 2350
 Wire Wire Line
-	7000 2350 7000 2150
-Wire Wire Line
-	6500 1850 6500 1650
+	6500 2350 6500 2150
 Wire Wire Line
 	7000 1850 7000 1650
+Wire Wire Line
+	6500 1850 6500 1650
 $EndSCHEMATC
