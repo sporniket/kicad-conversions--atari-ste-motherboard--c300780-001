@@ -786,19 +786,9 @@ Connection ~ 5750 7300
 Wire Wire Line
 	5750 7300 5750 7400
 Wire Wire Line
-	5750 7700 5750 7800
-Wire Wire Line
 	5750 8100 5750 8200
 Wire Wire Line
 	6250 7300 6250 7500
-Wire Wire Line
-	6250 7700 6250 7800
-Wire Wire Line
-	5750 7800 6250 7800
-Connection ~ 5750 7800
-Wire Wire Line
-	5750 7800 5750 7900
-Connection ~ 6250 7800
 Wire Wire Line
 	6250 8000 6450 8000
 Wire Wire Line
@@ -917,5 +907,7 @@ Connection ~ 6250 8000
 Wire Wire Line
 	6250 8000 6250 8200
 Wire Wire Line
-	6250 7800 6250 8000
+	5750 7700 5750 7900
+Wire Wire Line
+	6250 7700 6250 8000
 $EndSCHEMATC
