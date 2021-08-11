@@ -498,9 +498,9 @@ Text GLabel 1250 4500 0    50   Output ~ 0
 XDISKINT
 Wire Wire Line
 	1250 4500 1550 4500
-Text GLabel 1250 4600 0    50   Output ~ 0
-SNDCS
 Text GLabel 1250 4700 0    50   Output ~ 0
+SNDCS
+Text GLabel 1250 4600 0    50   Output ~ 0
 SNDIR
 NoConn ~ 1550 4800
 NoConn ~ 1550 4900
