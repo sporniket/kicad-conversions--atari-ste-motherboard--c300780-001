@@ -75,7 +75,7 @@ Text Label 3250 2300 0    50   ~ 0
 j0_13
 Text Label 3250 2400 0    50   ~ 0
 j0_14
-Text Label 1500 2500 0    50   ~ 0
+Text Label 1500 1500 0    50   ~ 0
 j0_15
 Text Label 3400 1900 0    50   ~ 0
 GND
@@ -389,23 +389,23 @@ Wire Wire Line
 $Comp
 L Device:C_Small C532
 U 1 1 60CCCD2F
-P 1850 1750
-F 0 "C532" H 1860 1820 50  0000 L CNN
-F 1 "800pF" H 1860 1670 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_ceramic_radial_W5.08mm_L6.35mm_X11.43mm" H 1850 1750 50  0001 C CNN
-F 3 "~" H 1850 1750 50  0001 C CNN
-	1    1850 1750
+P 1850 2750
+F 0 "C532" H 1860 2820 50  0000 L CNN
+F 1 "800pF" H 1860 2670 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_ceramic_radial_W5.08mm_L6.35mm_X11.43mm" H 1850 2750 50  0001 C CNN
+F 3 "~" H 1850 2750 50  0001 C CNN
+	1    1850 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C526
 U 1 1 60CD0365
-P 1850 2750
-F 0 "C526" H 1860 2820 50  0000 L CNN
-F 1 "800pF" H 1860 2670 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_ceramic_radial_W5.08mm_L6.35mm_X11.43mm" H 1850 2750 50  0001 C CNN
-F 3 "~" H 1850 2750 50  0001 C CNN
-	1    1850 2750
+P 1850 1750
+F 0 "C526" H 1860 1820 50  0000 L CNN
+F 1 "800pF" H 1860 1670 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_ceramic_radial_W5.08mm_L6.35mm_X11.43mm" H 1850 1750 50  0001 C CNN
+F 3 "~" H 1850 1750 50  0001 C CNN
+	1    1850 1750
 	1    0    0    -1  
 $EndComp
 Connection ~ 2650 2500
@@ -460,12 +460,10 @@ Wire Wire Line
 Wire Wire Line
 	1850 2650 1850 2500
 Wire Wire Line
-	1850 2500 2150 2500
-Wire Wire Line
 	1850 1650 1850 1500
 Wire Wire Line
 	1850 1500 2150 1500
-Text Label 1500 1500 0    50   ~ 0
+Text Label 1500 2500 0    50   ~ 0
 j0_5
 Wire Wire Line
 	1500 1500 1850 1500
@@ -503,10 +501,6 @@ Wire Wire Line
 	3350 3700 3350 3800
 Wire Wire Line
 	3350 3800 3250 3800
-Text Label 3700 3700 2    50   ~ 0
-j0_5
-Text Label 1000 3600 0    50   ~ 0
-j0_15
 Text Label 4500 3600 0    50   ~ 0
 j1_5
 Text Label 7200 3700 2    50   ~ 0
@@ -1279,4 +1273,10 @@ Wire Wire Line
 	6850 2900 6850 2700
 Text Notes 1000 1200 0    50   ~ 0
 Note : I swapped R518 and R521, \nas well as R519 and R523, to match \nwhat I have on my motherboard.
+Text Label 3700 3700 2    50   ~ 0
+j0_5
+Text Label 1000 3600 0    50   ~ 0
+j0_15
+Wire Wire Line
+	1850 2500 2150 2500
 $EndSCHEMATC

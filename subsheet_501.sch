@@ -213,14 +213,6 @@ Text Label 2700 5200 0    50   ~ 0
 D2
 Text Label 2700 5300 0    50   ~ 0
 D3
-Text Label 4300 4800 2    50   ~ 0
-D4
-Text Label 4300 4900 2    50   ~ 0
-D5
-Text Label 4300 5200 2    50   ~ 0
-D6
-Text Label 4300 5300 2    50   ~ 0
-D7
 Wire Wire Line
 	2700 5500 2900 5500
 Text Label 2700 5500 0    50   ~ 0
@@ -485,13 +477,13 @@ Text GLabel 6050 6500 0    50   Input ~ 0
 JOY0_12
 Text GLabel 6050 6700 0    50   Input ~ 0
 JOY0_11
-Text GLabel 5600 6200 0    50   Input ~ 0
-JOY1_14
-Text GLabel 5600 6400 0    50   Input ~ 0
-JOY1_13
-Text GLabel 5600 6600 0    50   Input ~ 0
-JOY1_12
 Text GLabel 5600 6800 0    50   Input ~ 0
+JOY1_14
+Text GLabel 5600 6600 0    50   Input ~ 0
+JOY1_13
+Text GLabel 5600 6400 0    50   Input ~ 0
+JOY1_12
+Text GLabel 5600 6200 0    50   Input ~ 0
 JOY1_11
 Wire Wire Line
 	6050 6100 6200 6100
@@ -661,4 +653,36 @@ Wire Wire Line
 	1750 6400 1750 6600
 Wire Wire Line
 	1750 6900 1750 7100
+Text Notes 4950 7350 0    50   ~ 0
+JOY1_12 and JOY1_13 are swapped,\nas well as JOY1_11 and JOY1_14,\nto match the wiring on my motherboard.\n
+Text Notes 3850 1450 0    50   ~ 0
+D4 and D7 are swapped, as well as D5 and D6,\nto match the wiring on my motherboard.\n
+Wire Notes Line
+	4800 2400 4350 2400
+Wire Notes Line
+	4800 1450 4800 2400
+Wire Notes Line
+	4800 1800 4350 1800
+Wire Notes Line
+	4350 2000 4800 2000
+Wire Notes Line
+	4350 2200 4800 2200
+Wire Notes Line
+	5200 6200 5050 6200
+Wire Notes Line
+	5200 6400 5050 6400
+Wire Notes Line
+	5200 6600 5050 6600
+Wire Notes Line
+	5200 6800 5050 6800
+Wire Notes Line
+	5050 6200 5050 7100
+Text Label 4300 4800 2    50   ~ 0
+D7
+Text Label 4300 4900 2    50   ~ 0
+D6
+Text Label 4300 5200 2    50   ~ 0
+D5
+Text Label 4300 5300 2    50   ~ 0
+D4
 $EndSCHEMATC
