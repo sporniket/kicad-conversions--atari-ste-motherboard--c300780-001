@@ -653,20 +653,8 @@ Wire Wire Line
 	1750 6400 1750 6600
 Wire Wire Line
 	1750 6900 1750 7100
-Text Notes 4950 7350 0    50   ~ 0
-JOY1_12 and JOY1_13 are swapped,\nas well as JOY1_11 and JOY1_14,\nto match the wiring on my motherboard.\n
-Text Notes 3850 1450 0    50   ~ 0
-D4 and D7 are swapped, as well as D5 and D6,\nto match the wiring on my motherboard.\n
-Wire Notes Line
-	4800 2400 4350 2400
-Wire Notes Line
-	4800 1450 4800 2400
-Wire Notes Line
-	4800 1800 4350 1800
-Wire Notes Line
-	4350 2000 4800 2000
-Wire Notes Line
-	4350 2200 4800 2200
+Text Notes 5100 7300 0    50   ~ 0
+JOY1_11 to JOY1_14 are in reversed order,\nto match the wiring on my motherboard.\n
 Wire Notes Line
 	5200 6200 5050 6200
 Wire Notes Line
@@ -675,8 +663,6 @@ Wire Notes Line
 	5200 6600 5050 6600
 Wire Notes Line
 	5200 6800 5050 6800
-Wire Notes Line
-	5050 6200 5050 7100
 Text Label 4300 4800 2    50   ~ 0
 D7
 Text Label 4300 4900 2    50   ~ 0
@@ -685,4 +671,30 @@ Text Label 4300 5200 2    50   ~ 0
 D5
 Text Label 4300 5300 2    50   ~ 0
 D4
+Text Notes 5000 5700 0    50   ~ 0
+D4 to D7 are in reversed order,\nto match the wiring on my motherboard.\n
+Wire Notes Line
+	5050 7350 6850 7350
+Wire Notes Line
+	5050 6200 5050 7350
+Wire Notes Line
+	6850 7100 6850 7350
+Wire Notes Line
+	5050 7100 6850 7100
+Wire Notes Line
+	6600 5750 6600 5500
+Wire Notes Line
+	6600 5500 4950 5500
+Wire Notes Line
+	4950 5750 6600 5750
+Wire Notes Line
+	4300 4800 4950 4800
+Wire Notes Line
+	4300 4900 4950 4900
+Wire Notes Line
+	4300 5200 4950 5200
+Wire Notes Line
+	4300 5300 4950 5300
+Wire Notes Line
+	4950 4800 4950 5750
 $EndSCHEMATC
