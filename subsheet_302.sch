@@ -1133,4 +1133,6 @@ Wire Notes Line
 	650  1250 3400 1250
 Wire Notes Line
 	1300 1950 1300 1250
+Text Notes 1200 4850 0    50   ~ 0
+Atari floppy drives have internal pull-ups that others have not.\nWhen experiencing drive failure although the drive works on\na PC, add a 1K pull-up on following pins : 2, 4, 6, 8, 10.\n\nsee https://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1395
 $EndSCHEMATC
