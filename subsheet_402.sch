@@ -27,18 +27,18 @@ $EndComp
 $Comp
 L Device:Ferrite_Bead_Small L401
 U 1 1 60B41C5A
-P 1250 3700
-F 0 "L401" H 1325 3750 50  0000 L CNN
-F 1 "Ferrite Bead" H 1325 3650 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1180 3700 50  0001 C CNN
-F 3 "~" H 1250 3700 50  0001 C CNN
-	1    1250 3700
+P 1250 3500
+F 0 "L401" H 1325 3550 50  0000 L CNN
+F 1 "Ferrite Bead" H 1325 3450 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1180 3500 50  0001 C CNN
+F 3 "~" H 1250 3500 50  0001 C CNN
+	1    1250 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 60B4784B
-P 1250 4350
+P 1250 4150
 AR Path="/60786F27/6078774E/60B4784B" Ref="C?"  Part="1" 
 AR Path="/60786F27/607875AF/60B4784B" Ref="C?"  Part="1" 
 AR Path="/6089D0BA/60B4784B" Ref="C?"  Part="1" 
@@ -49,38 +49,38 @@ AR Path="/60AD8617/60B4784B" Ref="C?"  Part="1"
 AR Path="/60AD332C/60B4784B" Ref="C?"  Part="1" 
 AR Path="/60AD33B6/60B4784B" Ref="C?"  Part="1" 
 AR Path="/60B3D9E3/60B4784B" Ref="C411"  Part="1" 
-F 0 "C411" H 1275 4450 50  0000 L CNN
-F 1 "0.1uF" H 1275 4250 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" H 1288 4200 50  0001 C CNN
-F 3 "~" H 1250 4350 50  0001 C CNN
-	1    1250 4350
+F 0 "C411" H 1275 4250 50  0000 L CNN
+F 1 "0.1uF" H 1275 4050 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" H 1288 4000 50  0001 C CNN
+F 3 "~" H 1250 4150 50  0001 C CNN
+	1    1250 4150
 	1    0    0    -1  
 $EndComp
-Text Label 1250 4700 1    50   ~ 0
+Text Label 1250 4500 1    50   ~ 0
 GND
 Wire Wire Line
-	1250 4500 1250 4700
-Text Label 1250 4000 0    50   ~ 0
+	1250 4300 1250 4500
+Text Label 1250 3800 0    50   ~ 0
 fvcc1
 Wire Wire Line
-	1250 3600 1250 3400
-Text Label 1250 3400 3    50   ~ 0
+	1250 3400 1250 3200
+Text Label 1250 3200 3    50   ~ 0
 VCC
 $Comp
 L Device:Ferrite_Bead_Small L402
 U 1 1 60B49A84
-P 2000 3700
-F 0 "L402" H 2075 3750 50  0000 L CNN
-F 1 "Ferrite Bead" H 2075 3650 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1930 3700 50  0001 C CNN
-F 3 "~" H 2000 3700 50  0001 C CNN
-	1    2000 3700
+P 2000 3500
+F 0 "L402" H 2075 3550 50  0000 L CNN
+F 1 "Ferrite Bead" H 2075 3450 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1930 3500 50  0001 C CNN
+F 3 "~" H 2000 3500 50  0001 C CNN
+	1    2000 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 60B49A8A
-P 2000 4350
+P 2000 4150
 AR Path="/60786F27/6078774E/60B49A8A" Ref="C?"  Part="1" 
 AR Path="/60786F27/607875AF/60B49A8A" Ref="C?"  Part="1" 
 AR Path="/6089D0BA/60B49A8A" Ref="C?"  Part="1" 
@@ -91,27 +91,27 @@ AR Path="/60AD8617/60B49A8A" Ref="C?"  Part="1"
 AR Path="/60AD332C/60B49A8A" Ref="C?"  Part="1" 
 AR Path="/60AD33B6/60B49A8A" Ref="C?"  Part="1" 
 AR Path="/60B3D9E3/60B49A8A" Ref="C414"  Part="1" 
-F 0 "C414" H 2025 4450 50  0000 L CNN
-F 1 "0.1uF" H 2025 4250 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 2038 4200 50  0001 C CNN
-F 3 "~" H 2000 4350 50  0001 C CNN
-	1    2000 4350
+F 0 "C414" H 2025 4250 50  0000 L CNN
+F 1 "0.1uF" H 2025 4050 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 2038 4000 50  0001 C CNN
+F 3 "~" H 2000 4150 50  0001 C CNN
+	1    2000 4150
 	1    0    0    -1  
 $EndComp
-Text Label 2000 4700 1    50   ~ 0
+Text Label 2000 4500 1    50   ~ 0
 GND
 Wire Wire Line
-	2000 4500 2000 4700
-Text Label 2000 4000 0    50   ~ 0
+	2000 4300 2000 4500
+Text Label 2000 3800 0    50   ~ 0
 fvcc2
 Wire Wire Line
-	2000 3600 2000 3400
-Text Label 2000 3400 3    50   ~ 0
+	2000 3400 2000 3200
+Text Label 2000 3200 3    50   ~ 0
 VCC
 Wire Wire Line
-	1250 3800 1250 4200
+	1250 3600 1250 4000
 Wire Wire Line
-	2000 3800 2000 4200
+	2000 3600 2000 4000
 $Comp
 L Transistor_BJT:2N3904 Q400
 U 1 1 60B4CA43
@@ -978,4 +978,36 @@ Text Label 6350 2900 1    50   ~ 0
 GND
 Wire Wire Line
 	6350 2900 6350 2700
+Text Notes 700  4950 0    50   ~ 0
+When there is ghosting using RGB/Scart, \nadd a 47uF low ESR electrolytic capacitor in parallel of C411, \nand a 1uF ceramic capacitor in parallel of C411 too.\n\nsee https://www.exxoshost.co.uk/atari/last/VIDEOFIX/index.htm\n
+Wire Notes Line
+	1100 4100 900  4100
+Wire Notes Line
+	900  4150 1100 4150
+Wire Notes Line
+	850  4100 650  4100
+Wire Notes Line
+	750  4150 750  4300
+Wire Notes Line
+	750  4300 1250 4300
+Wire Notes Line
+	1000 4150 1000 4300
+Wire Notes Line
+	750  4100 750  3950
+Wire Notes Line
+	750  3950 1250 3950
+Wire Notes Line
+	1000 4100 1000 3950
+Wire Notes Line
+	700  4200 700  4150
+Wire Notes Line
+	800  4200 800  4150
+Wire Notes Line
+	700  4150 800  4150
+Text Notes 550  4300 0    50   ~ 0
+47uF
+Text Notes 650  4100 0    50   ~ 0
++
+Text Notes 850  4300 0    50   ~ 0
+1uF
 $EndSCHEMATC
