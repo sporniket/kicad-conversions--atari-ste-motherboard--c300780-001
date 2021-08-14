@@ -251,4 +251,6 @@ Text Notes 7100 6400 0    55   ~ 0
 Page 29
 Text Notes 900  1500 0    500  ~ 100
 Table of content
+Text Notes 800  8800 0    79   ~ 0
+Note : some mods aimed to troubleshoot some problems are \nadded as comment (text + graphics) at the relevant location.\n\n- DMA pull-up on databus (done on the floppy disc controller U301)\n- WD1772 pull-ups (done on U305)\n- LMC audio mix fix (done near U508)\n\n
 $EndSCHEMATC

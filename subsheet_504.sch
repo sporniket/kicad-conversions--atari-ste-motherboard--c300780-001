@@ -1017,4 +1017,10 @@ Wire Notes Line
 	4500 1400 4500 1850
 Wire Notes Line
 	5150 700  5150 2400
+Wire Notes Line
+	4550 1500 5150 1500
+Wire Notes Line
+	5150 700  7650 700 
+Wire Notes Line
+	5150 2400 7650 2400
 $EndSCHEMATC
