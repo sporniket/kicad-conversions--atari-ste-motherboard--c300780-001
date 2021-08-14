@@ -990,7 +990,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 4200 7450 4850
 Text Notes 5200 2250 0    50   ~ 0
-LMC Mixer Fix\n\nThe original circuit gives no sound at 'audio_low',\ninstead of a -12 dB attenuated sound to have a balanced\nmix of digitized sound and sound from YM2149.\n\nPeter Putnik (FIXME: Link) \ndid some research on that problem and proposed \nthe following fix :\n\n- insert a 10K resistor between the output of R531 and R530\n\n- Short the output of R531 to 'audio_low'. \n\nSee link to select this mix in software.\n\nThis fix was confirmed by Exxos here :\nhttps://www.exxoshost.co.uk/atari/last/STEDACFIX/index.htm
+LMC Mixer Fix\n\nThe original circuit gives no sound at 'audio_low',\ninstead of a -12 dB attenuated sound to have a balanced\nmix of digitized sound and sound from YM2149.\n\nPeter Putnik did some research on that problem and proposed \nthe following fix :\n\n- Cut between R531 and R539/R530, to insert a 10K resistor\n  \n- Connect the output of R531 to 'audio_low'. \n\nSee http://atari.8bitchip.info/STEamFix.html for \nthe details and how to select this mix in software.\n\nThis fix is confirmed by Exxos, see the second section of\nhttps://www.exxoshost.co.uk/atari/last/STEDACFIX/index.htm\n
 Connection ~ 3500 1950
 Text Notes 3500 1750 1    50   ~ 0
 10K
