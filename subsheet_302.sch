@@ -64,7 +64,7 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 60ADC6E0
-P 1250 4000
+P 700 4000
 AR Path="/60786F27/6078774E/60ADC6E0" Ref="C?"  Part="1" 
 AR Path="/60786F27/607875AF/60ADC6E0" Ref="C?"  Part="1" 
 AR Path="/6089D0BA/60ADC6E0" Ref="C?"  Part="1" 
@@ -72,21 +72,21 @@ AR Path="/608A2359/60ADC6E0" Ref="C?"  Part="1"
 AR Path="/60A1445F/60ADC6E0" Ref="C?"  Part="1" 
 AR Path="/60A73CDE/60ADC6E0" Ref="C?"  Part="1" 
 AR Path="/60AD8617/60ADC6E0" Ref="C304"  Part="1" 
-F 0 "C304" H 1275 4100 50  0000 L CNN
-F 1 "0.1uF" H 1275 3900 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 1288 3850 50  0001 C CNN
-F 3 "~" H 1250 4000 50  0001 C CNN
-	1    1250 4000
+F 0 "C304" H 725 4100 50  0000 L CNN
+F 1 "0.1uF" H 725 3900 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 738 3850 50  0001 C CNN
+F 3 "~" H 700 4000 50  0001 C CNN
+	1    700  4000
 	1    0    0    -1  
 $EndComp
-Text Label 1250 4350 1    50   ~ 0
+Text Label 700  4350 1    50   ~ 0
 GND
-Text Label 1250 3650 3    50   ~ 0
+Text Label 700  3650 3    50   ~ 0
 VCC
 Wire Wire Line
-	1250 3650 1250 3850
+	700  3650 700  3850
 Wire Wire Line
-	1250 4150 1250 4350
+	700  4150 700  4350
 $Comp
 L Device:R_Small_US R?
 U 1 1 60ADDCD6
@@ -1133,6 +1133,104 @@ Wire Notes Line
 	650  1250 3400 1250
 Wire Notes Line
 	1300 1950 1300 1250
-Text Notes 1200 4850 0    50   ~ 0
-Atari floppy drives have internal pull-ups that others have not.\nWhen experiencing drive failure although the drive works on\na PC, add a 1K pull-up on following pins : 2, 4, 6, 8, 10.\n\nsee https://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1395
+Text Notes 1250 5000 0    50   ~ 0
+Atari floppy drives have internal pull-ups that others have not.\nWhen experiencing drive failure although the drive works on\na PC, add a 1K pull-up on the following pins : 2, 4, 6, 8, 10.\n\nsee https://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1395
+Wire Notes Line
+	1550 3550 1450 3550
+Wire Notes Line
+	1450 3550 1450 3700
+Wire Notes Line
+	1450 3700 1550 3700
+Wire Notes Line
+	1550 3700 1550 3550
+Text Notes 1550 3700 1    50   ~ 0
+1K
+Wire Notes Line
+	1400 3750 1300 3750
+Wire Notes Line
+	1300 3750 1300 3900
+Wire Notes Line
+	1300 3900 1400 3900
+Wire Notes Line
+	1400 3900 1400 3750
+Text Notes 1400 3900 1    50   ~ 0
+1K
+Wire Notes Line
+	1250 3950 1150 3950
+Wire Notes Line
+	1150 3950 1150 4100
+Wire Notes Line
+	1150 4100 1250 4100
+Wire Notes Line
+	1250 4100 1250 3950
+Text Notes 1250 4100 1    50   ~ 0
+1K
+Wire Notes Line
+	1850 4200 1200 4200
+Wire Notes Line
+	1200 4200 1200 4100
+Wire Notes Line
+	1350 3900 1350 4000
+Wire Notes Line
+	1350 4000 1850 4000
+Wire Notes Line
+	1500 3700 1500 3800
+Wire Notes Line
+	1500 3800 1850 3800
+Text Notes 1100 3500 0    50   ~ 0
+VCC
+Wire Notes Line
+	1100 3500 1500 3500
+Wire Notes Line
+	1500 3500 1500 3550
+Wire Notes Line
+	1350 3750 1350 3500
+Wire Notes Line
+	1200 3950 1200 3500
+Wire Notes Line
+	4200 3900 4100 3900
+Wire Notes Line
+	4100 3900 4100 4050
+Wire Notes Line
+	4100 4050 4200 4050
+Wire Notes Line
+	4200 4050 4200 3900
+Text Notes 4200 4050 1    50   ~ 0
+1K
+Wire Notes Line
+	4350 4100 4250 4100
+Wire Notes Line
+	4250 4100 4250 4250
+Wire Notes Line
+	4250 4250 4350 4250
+Wire Notes Line
+	4350 4250 4350 4100
+Text Notes 4350 4250 1    50   ~ 0
+1K
+Wire Notes Line
+	3450 3700 4300 3700
+Wire Notes Line
+	4300 3700 4300 4100
+Wire Notes Line
+	4300 4250 4300 4300
+Wire Notes Line
+	4300 4300 3450 4300
+Wire Notes Line
+	4150 4050 4150 4200
+Wire Notes Line
+	4150 4200 3450 4200
+Wire Notes Line
+	4150 3900 4150 3700
+Wire Notes Line
+	1200 4550 3950 4550
+Wire Notes Line
+	3950 4550 3950 5050
+Wire Notes Line
+	3950 5050 1200 5050
+Wire Notes Line
+	1200 5050 1200 4550
+Wire Notes Line
+	1300 4250 1300 4550
+Wire Notes Line
+	3900 4350 3900 4550
 $EndSCHEMATC
