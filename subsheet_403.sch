@@ -1146,4 +1146,18 @@ Wire Wire Line
 	4550 6400 4900 6400
 Wire Wire Line
 	4900 6400 4900 6450
+Text Notes 5100 5850 0    50   ~ 0
+C415 should be the other way around. On the ST schematics\nthis is C21, the cathode (-) is connected to the resistor\nthat outputs CSYNC/Composite.\n\nsee https://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1698
+Wire Notes Line
+	7800 5400 5050 5400
+Wire Notes Line
+	5050 5400 5050 5900
+Wire Notes Line
+	5050 5900 7800 5900
+Wire Notes Line
+	7800 5900 7800 5400
+Wire Notes Line
+	7450 5900 7450 6700
+Wire Notes Line
+	7450 6700 6150 6700
 $EndSCHEMATC
