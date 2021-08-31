@@ -5,8 +5,8 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 2 29
 Title "Converted schematics of Atari STE"
-Date "2021-08-15"
-Rev "1.0.0.rc4"
+Date "2021-08-31"
+Rev "1.0.0"
 Comp ""
 Comment1 "Reference : C300780-001"
 Comment2 ""

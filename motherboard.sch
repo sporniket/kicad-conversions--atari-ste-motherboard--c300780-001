@@ -5,8 +5,8 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 29
 Title "Converted schematics of Atari STE"
-Date "2021-08-15"
-Rev "1.0.0.rc4"
+Date "2021-08-31"
+Rev "1.0.0"
 Comp ""
 Comment1 "Reference : C300780-001"
 Comment2 ""
@@ -251,6 +251,6 @@ Text Notes 7100 6400 0    55   ~ 0
 Page 29
 Text Notes 900  1500 0    500  ~ 100
 Table of content
-Text Notes 800  8800 0    79   ~ 0
-Note : some mods aimed to troubleshoot some problems are \nadded as comment (text + graphics) at the relevant location.\n\n- DMA pull-up on databus (done on the floppy disc controller U301)\n- WD1772 pull-ups (done on U305)\n- LMC audio mix fix (done near U508)\n- RGB Video ghosting fix (done at C411)\n
+Text Notes 800  8900 0    79   ~ 0
+Note : some mods aimed to troubleshoot some problems are \nadded as comment (text + graphics) at the relevant location.\n\n- DMA pull-up on databus (done on the floppy disc controller U301)\n- WD1772 pull-ups (done on U305)\n- LMC audio mix fix (done near U508)\n- RGB Video ghosting fix (done at C411)\n- C415 should be reversed\n
 $EndSCHEMATC
