@@ -1095,75 +1095,75 @@
     (uuid d7d106ef-488c-4a28-9c22-22515b83f12f)
   )
 
-  (label "GND" (at 25.4 62.23 0)
+  (label "GND" (at 25.4 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 08eabcdf-77c9-4e22-a530-9ba922cbce6d)
   )
-  (label "GND" (at 161.29 35.56 90)
+  (label "GND" (at 161.29 35.56 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1e01bde2-c574-4534-a4a9-0a77c7fd75d2)
   )
-  (label "GND" (at 40.64 219.71 90)
+  (label "GND" (at 40.64 219.71 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 23f872be-3426-4dc2-b150-c06574af7eee)
   )
-  (label "GND" (at 57.15 128.27 0)
+  (label "GND" (at 57.15 128.27 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f3785c0-bcf6-4249-8f04-b636381b236e)
   )
-  (label "GND" (at 168.91 83.82 180)
+  (label "GND" (at 168.91 83.82 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5203c230-5a98-46b4-a073-6da64963c8ff)
   )
-  (label "GND" (at 59.69 219.71 90)
+  (label "GND" (at 59.69 219.71 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 55400464-6569-4db6-8d7f-8445be159329)
   )
-  (label "GND" (at 78.74 219.71 90)
+  (label "GND" (at 78.74 219.71 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 63a1fe02-8500-4642-847c-d7bc0ba718b7)
   )
-  (label "GND" (at 44.45 83.82 0)
+  (label "GND" (at 44.45 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 82eb93df-f7b1-4906-a470-db20d2acd2cb)
   )
-  (label "+12V" (at 134.62 20.32 0)
+  (label "+12V" (at 134.62 20.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 876f44d5-3a34-4d27-a38e-c0fdca2f98c5)
   )
-  (label "GND" (at 129.54 107.95 0)
+  (label "GND" (at 129.54 107.95 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8fdb2238-9468-4f85-a0e8-1dea46ab42cf)
   )
-  (label "GND" (at 173.99 35.56 90)
+  (label "GND" (at 173.99 35.56 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aa2f454b-c7a3-42b9-8bbb-3684f3611438)
   )
-  (label "GND" (at 148.59 33.02 90)
+  (label "GND" (at 148.59 33.02 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ac06fd1d-457a-49bd-ba92-f59479d711f5)
   )
-  (label "GND" (at 142.24 152.4 0)
+  (label "GND" (at 142.24 152.4 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cd3d9183-7078-4b1e-9e17-16f20fd7bc97)
   )
-  (label "GND" (at 182.88 93.98 90)
+  (label "GND" (at 182.88 93.98 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d70aa6ee-d385-4f11-8d8b-11a54e7751b8)
   )
-  (label "GND" (at 97.79 72.39 90)
+  (label "GND" (at 97.79 72.39 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid eab8ada0-0266-4ee5-8b00-53da312b6459)
   )
-  (label "GND" (at 21.59 219.71 90)
+  (label "GND" (at 21.59 219.71 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid eb647744-8b88-4506-aeee-2ee2c60fcc60)
   )
-  (label "GND" (at 110.49 83.82 0)
+  (label "GND" (at 110.49 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f407bfd5-b625-4b62-8956-d3ca81e5ee40)
   )
-  (label "GND" (at 83.82 62.23 180)
+  (label "GND" (at 83.82 62.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fb17bb48-a87d-4d1e-85eb-075e69d802c0)
   )
@@ -1347,7 +1347,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 86.36 119.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060cfaca6)
-    (property "Reference" "R?" (at 83.82 116.84 90)
+    (property "Reference" "R507" (at 83.82 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K8 1%" (at 83.82 121.92 90)
@@ -1363,17 +1363,8 @@
     (pin "2" (uuid 01e03cd0-2b8c-47df-9614-cdd4aa7563e3))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R507") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -1382,7 +1373,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 171.45 143.51 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d0058c)
-    (property "Reference" "R?" (at 168.91 140.97 90)
+    (property "Reference" "R516" (at 168.91 140.97 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K8 1%" (at 168.91 146.05 90)
@@ -1398,17 +1389,8 @@
     (pin "2" (uuid d66004ec-4a8e-401e-9c47-9f8d02f2b19a))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R516") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -1442,9 +1424,6 @@
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "U505") (unit 1)
         )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "U?") (unit 1)
-        )
       )
     )
   )
@@ -1452,7 +1431,7 @@
   (symbol (lib_id "Device:CP1") (at 97.79 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d196c8)
-    (property "Reference" "C?" (at 99.06 46.99 0)
+    (property "Reference" "C566" (at 99.06 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 99.06 52.07 0)
@@ -1468,17 +1447,8 @@
     (pin "2" (uuid 7138f5c9-41cb-4566-8ff2-c61ebb1631ad))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C566") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0c2"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -1487,7 +1457,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 97.79 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d196ce)
-    (property "Reference" "R?" (at 99.06 63.5 0)
+    (property "Reference" "R545" (at 99.06 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100K 1%" (at 99.06 66.04 0)
@@ -1503,17 +1473,8 @@
     (pin "2" (uuid 9299c89d-6735-4d93-8100-48edebbdc4c8))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R545") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -1522,7 +1483,7 @@
   (symbol (lib_id "Device:C") (at 40.64 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d196d9)
-    (property "Reference" "C?" (at 41.275 208.28 0)
+    (property "Reference" "C501" (at 41.275 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 41.275 213.36 0)
@@ -1538,38 +1499,8 @@
     (pin "2" (uuid 380f9e4e-bf01-453c-8071-8a1457a92893))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C501") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -1578,7 +1509,7 @@
   (symbol (lib_id "Device:C") (at 40.64 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d196df)
-    (property "Reference" "C?" (at 41.275 223.52 0)
+    (property "Reference" "C512" (at 41.275 223.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 41.275 228.6 0)
@@ -1594,38 +1525,8 @@
     (pin "2" (uuid 597405bd-75cb-470d-ab25-cea6efd4f6a6))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C512") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -1634,7 +1535,7 @@
   (symbol (lib_id "Device:C") (at 21.59 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d4bb59)
-    (property "Reference" "C?" (at 22.225 208.28 0)
+    (property "Reference" "C500" (at 22.225 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 22.225 213.36 0)
@@ -1650,38 +1551,8 @@
     (pin "2" (uuid da6b95b1-45e1-45cc-93a0-e023265ead78))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C500") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -1690,7 +1561,7 @@
   (symbol (lib_id "Device:C") (at 21.59 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d4bb5f)
-    (property "Reference" "C?" (at 22.225 223.52 0)
+    (property "Reference" "C511" (at 22.225 223.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 22.225 228.6 0)
@@ -1706,38 +1577,8 @@
     (pin "2" (uuid d50b1d65-ab7f-491a-96ca-c37b9338ee8b))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C511") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -1822,7 +1663,7 @@
   (symbol (lib_id "Device:C") (at 78.74 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060db1e93)
-    (property "Reference" "C?" (at 79.375 208.28 0)
+    (property "Reference" "C502" (at 79.375 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 79.375 213.36 0)
@@ -1838,38 +1679,8 @@
     (pin "2" (uuid 6cb29ba6-e222-4b72-bb1f-871895bafa8d))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C502") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -1878,7 +1689,7 @@
   (symbol (lib_id "Device:C") (at 78.74 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060db1e99)
-    (property "Reference" "C?" (at 79.375 223.52 0)
+    (property "Reference" "C513" (at 79.375 223.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 79.375 228.6 0)
@@ -1894,38 +1705,8 @@
     (pin "2" (uuid 8bbf4521-3156-4461-835d-4395c7bdaecb))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C513") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -1959,9 +1740,6 @@
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "U506") (unit 1)
         )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "U?") (unit 1)
-        )
       )
     )
   )
@@ -1969,7 +1747,7 @@
   (symbol (lib_id "Device:CP1") (at 182.88 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060def28d)
-    (property "Reference" "C?" (at 184.15 68.58 0)
+    (property "Reference" "C567" (at 184.15 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 184.15 73.66 0)
@@ -1985,17 +1763,8 @@
     (pin "2" (uuid 618a5a5e-e71d-4c96-8390-8c6d9fcca9c0))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C567") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0c2"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2004,7 +1773,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 182.88 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060def293)
-    (property "Reference" "R?" (at 184.15 85.09 0)
+    (property "Reference" "R546" (at 184.15 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100K 1%" (at 184.15 87.63 0)
@@ -2020,17 +1789,8 @@
     (pin "2" (uuid 46ed84db-80b6-4189-89a9-af33999d456f))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R546") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -2039,7 +1799,7 @@
   (symbol (lib_id "Device:C") (at 59.69 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060def29e)
-    (property "Reference" "C?" (at 60.325 208.28 0)
+    (property "Reference" "C514" (at 60.325 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 60.325 213.36 0)
@@ -2055,38 +1815,8 @@
     (pin "2" (uuid 322d9aa9-2d6a-4538-aef8-54033cf4377f))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C514") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2095,7 +1825,7 @@
   (symbol (lib_id "Device:C") (at 59.69 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060def2a4)
-    (property "Reference" "C?" (at 60.325 223.52 0)
+    (property "Reference" "C523" (at 60.325 223.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 60.325 228.6 0)
@@ -2111,38 +1841,8 @@
     (pin "2" (uuid 0d46ec78-8025-450e-91b5-f290086487e8))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C523") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2171,9 +1871,6 @@
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "Q500") (unit 1)
         )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cd36e9"
-          (reference "Q?") (unit 1)
-        )
       )
     )
   )
@@ -2181,7 +1878,7 @@
   (symbol (lib_id "Device:CP1") (at 161.29 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e55789)
-    (property "Reference" "C?" (at 161.925 24.13 0)
+    (property "Reference" "C564" (at 161.925 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 161.925 29.21 0)
@@ -2197,20 +1894,8 @@
     (pin "2" (uuid 74c12eb3-a85e-4737-8f63-bd4e6a9670e7))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cd36e9"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0c2"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C564") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2219,7 +1904,7 @@
   (symbol (lib_id "Device:C") (at 173.99 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e5578f)
-    (property "Reference" "C?" (at 174.625 24.13 0)
+    (property "Reference" "C565" (at 174.625 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 174.625 29.21 0)
@@ -2235,38 +1920,8 @@
     (pin "2" (uuid c48a2e5c-c31f-4d27-bd9e-8558dc19c90f))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cd36e9"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C565") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2275,7 +1930,7 @@
   (symbol (lib_id "Device:CP1") (at 105.41 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9caaa)
-    (property "Reference" "C?" (at 113.03 162.56 0)
+    (property "Reference" "C508" (at 113.03 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 113.03 165.1 0)
@@ -2291,17 +1946,8 @@
     (pin "2" (uuid 956161e7-c43c-4184-9d4a-7a01e499a4a2))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C508") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0c2"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2310,7 +1956,7 @@
   (symbol (lib_id "Device:C") (at 82.55 138.43 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cab3)
-    (property "Reference" "C?" (at 80.01 134.62 90)
+    (property "Reference" "C506" (at 80.01 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.001uF" (at 80.01 142.24 90)
@@ -2326,38 +1972,8 @@
     (pin "2" (uuid b1c51e08-ae77-459e-a52a-692dfd150b50))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C506") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2366,7 +1982,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 92.71 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9caba)
-    (property "Reference" "R?" (at 96.52 110.49 0)
+    (property "Reference" "R504" (at 96.52 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K 1%" (at 97.79 113.03 0)
@@ -2382,38 +1998,8 @@
     (pin "2" (uuid 05c0a397-ac1c-4272-82df-23ff4fb500f5))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c451ba"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R504") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -2422,7 +2008,7 @@
   (symbol (lib_id "Device:C") (at 69.85 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cac0)
-    (property "Reference" "C?" (at 67.31 124.46 90)
+    (property "Reference" "C510" (at 67.31 124.46 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.001uF" (at 66.04 132.08 90)
@@ -2438,38 +2024,8 @@
     (pin "2" (uuid 57f992d7-6d5a-4e86-ac0c-823961266a29))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C510") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2478,7 +2034,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 99.06 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cac6)
-    (property "Reference" "R?" (at 96.52 125.73 90)
+    (property "Reference" "R502" (at 96.52 125.73 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K 1%" (at 96.52 130.81 90)
@@ -2494,17 +2050,8 @@
     (pin "2" (uuid ccf1063b-897a-4aad-83cd-abfa571fe71b))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R502") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -2513,7 +2060,7 @@
   (symbol (lib_id "Device:C") (at 69.85 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cace)
-    (property "Reference" "C?" (at 71.12 90.17 90)
+    (property "Reference" "C505" (at 71.12 90.17 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.001uF" (at 71.12 92.71 90)
@@ -2529,38 +2076,8 @@
     (pin "2" (uuid 67b8b25b-27c7-4609-a94e-900a2d9c3167))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C505") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2569,7 +2086,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 80.01 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cad6)
-    (property "Reference" "R?" (at 83.82 72.39 0)
+    (property "Reference" "R503" (at 83.82 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K 1%" (at 83.82 74.93 0)
@@ -2585,38 +2102,8 @@
     (pin "2" (uuid da30fbaa-b256-48f6-874c-20e16c82454c))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c451ba"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R503") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -2625,7 +2112,7 @@
   (symbol (lib_id "Device:C") (at 57.15 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cadc)
-    (property "Reference" "C?" (at 54.61 80.01 90)
+    (property "Reference" "C509" (at 54.61 80.01 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.001uF" (at 53.34 87.63 90)
@@ -2641,38 +2128,8 @@
     (pin "2" (uuid 89e8c814-d2dc-4e2b-9649-b23770e973ab))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C509") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2681,7 +2138,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 86.36 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cae2)
-    (property "Reference" "R?" (at 83.82 81.28 90)
+    (property "Reference" "R501" (at 83.82 81.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K 1%" (at 83.82 86.36 90)
@@ -2697,17 +2154,8 @@
     (pin "2" (uuid ac7b7389-5aaf-45b6-b2c4-b28bdb26034c))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R501") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -2716,7 +2164,7 @@
   (symbol (lib_id "Device:CP1") (at 190.5 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cb0e)
-    (property "Reference" "C?" (at 187.96 186.69 0)
+    (property "Reference" "C520" (at 187.96 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 187.96 189.23 0)
@@ -2732,17 +2180,8 @@
     (pin "2" (uuid 6b35f974-4976-4112-aaef-575304173921))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C520") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0c2"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2751,7 +2190,7 @@
   (symbol (lib_id "Device:C") (at 167.64 162.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cb15)
-    (property "Reference" "C?" (at 168.91 158.75 90)
+    (property "Reference" "C518" (at 168.91 158.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.001uF" (at 168.91 161.29 90)
@@ -2767,38 +2206,8 @@
     (pin "2" (uuid 139813e0-4ea8-46f1-8659-0e112d56d249))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C518") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2807,7 +2216,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 177.8 137.16 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cb1b)
-    (property "Reference" "R?" (at 181.61 135.89 0)
+    (property "Reference" "R513" (at 181.61 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K 1%" (at 182.88 138.43 0)
@@ -2823,38 +2232,8 @@
     (pin "2" (uuid bb6edf38-d569-47f7-bc91-6b1e827e1810))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c451ba"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R513") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -2863,7 +2242,7 @@
   (symbol (lib_id "Device:C") (at 154.94 152.4 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cb21)
-    (property "Reference" "C?" (at 152.4 148.59 90)
+    (property "Reference" "C522" (at 152.4 148.59 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.001uF" (at 151.13 156.21 90)
@@ -2879,38 +2258,8 @@
     (pin "2" (uuid 7f88cc7f-9604-46bd-b8d0-a9b33caac69d))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C522") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -2919,7 +2268,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 184.15 152.4 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cb27)
-    (property "Reference" "R?" (at 181.61 149.86 90)
+    (property "Reference" "R511" (at 181.61 149.86 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K 1%" (at 181.61 154.94 90)
@@ -2935,17 +2284,8 @@
     (pin "2" (uuid a37df600-8870-4581-ad47-cae27346833b))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R511") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -2954,7 +2294,7 @@
   (symbol (lib_id "Device:C") (at 154.94 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cb2f)
-    (property "Reference" "C?" (at 156.21 114.3 90)
+    (property "Reference" "C517" (at 156.21 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.001uF" (at 156.21 116.84 90)
@@ -2970,38 +2310,8 @@
     (pin "2" (uuid ebb98f43-b040-4b2c-b018-d983881d3e1d))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C517") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -3010,7 +2320,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 165.1 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cb37)
-    (property "Reference" "R?" (at 168.91 93.98 0)
+    (property "Reference" "R512" (at 168.91 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K 1%" (at 170.18 96.52 0)
@@ -3026,38 +2336,8 @@
     (pin "2" (uuid b7216086-5ead-4fc1-bcc0-62f840539bda))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c451ba"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R512") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
@@ -3066,7 +2346,7 @@
   (symbol (lib_id "Device:C") (at 142.24 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cb3d)
-    (property "Reference" "C?" (at 139.7 104.14 90)
+    (property "Reference" "C521" (at 139.7 104.14 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.001uF" (at 138.43 111.76 90)
@@ -3082,38 +2362,8 @@
     (pin "2" (uuid 9376c03c-6ca3-4e79-bc98-5fa2eaff1eba))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000608a2359"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a73cde"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad332c"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060a1445f"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad33b6"
-          (reference "C?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "C521") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060ad8617"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-00006089d0ba"
-          (reference "C?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -3122,7 +2372,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 171.45 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060e9cb43)
-    (property "Reference" "R?" (at 168.91 105.41 90)
+    (property "Reference" "R510" (at 168.91 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K 1%" (at 168.91 110.49 90)
@@ -3138,17 +2388,8 @@
     (pin "2" (uuid e57d5ec3-2310-4ae0-a6ac-7213b267b290))
     (instances
       (project "motherboard"
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b8b7ad"
-          (reference "R?") (unit 1)
-        )
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060cc3b10"
           (reference "R510") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060c95de8"
-          (reference "R?") (unit 1)
-        )
-        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-000060b3d9e3"
-          (reference "R?") (unit 1)
         )
       )
     )
