@@ -362,6 +362,58 @@
         )
       )
     )
+    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VCC" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCC_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VCC_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VCC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "tl497a:TL497A_DIP-14_500MA_PEAK_STEP-UP_STEP-DOWN_INVERTING_SWITCHING_VOLTAGE_REGULATOR_PHY" (pin_names (offset 1.27)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -19.05 15.24 0)
         (effects (font (size 1.27 1.27)) (justify left top))
@@ -472,7 +524,6 @@
   (no_connect (at 40.64 161.29) (uuid ca312c50-1917-484b-850a-e851053bb705))
   (no_connect (at 93.98 151.13) (uuid ceab615a-0408-47b2-b225-bd4f78586a27))
   (no_connect (at 113.03 35.56) (uuid daa86a36-db77-413c-8fa3-1625607bd3f6))
-  (no_connect (at 113.03 40.64) (uuid e8e2b939-67f5-4b33-88f7-54431b02ab60))
 
   (wire (pts (xy 54.61 38.1) (xy 59.69 38.1))
     (stroke (width 0) (type default))
@@ -1539,6 +1590,31 @@
       (project "motherboard"
         (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000609d3e52"
           (reference "D203") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 137.16 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1d09e6e2-22ea-4d07-9cfd-453eaf2cfc29)
+    (property "Reference" "#PWR043" (at 137.16 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 137.16 27.94 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 137.16 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ffe4d6e5-9406-459f-838e-03cd36fb2890))
+    (instances
+      (project "motherboard"
+        (path "/4cb1fb88-82c9-4c30-a4b3-85a871b04fd2/00000000-0000-0000-0000-0000609d3e52"
+          (reference "#PWR043") (unit 1)
         )
       )
     )
